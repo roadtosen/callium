@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callium | Дизайнерская мебель</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logo.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script>
+        ScrollReveal({duration: 1000})
+    </script>
+</head>
+<body>
+<!-- Шапка -->
+<header class="header">
+    <div class="container">
+        <div class="header-rentangle"></div>
+        <!-- Меню шапки -->
+        <div class="header__menu">
+            <div class="logo header-logo">
+                <img src="./images/logo.svg">
+            </div>
+            <div class="header__menu-bar">
+                <!-- Меню навигации-->
+                <div class="header__menu-list">
+                    <ul>
+                        <li class="menu-list__item"><a href="#news">Мебель</a></li>
+                        <li class="menu-list__item"><a href="#news">Освещение</a></li>
+                        <li class="menu-list__item"><a href="#products">Текстиль</a></li>
+                    </ul>
+                </div>
+                <div class="burger-icon">
+                    <span></span>
+                </div>
+                <div class="header__menu-widget">
+                    <div class="header__search">
+                        <button type="button" name="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="27" viewBox="0 0 24 27"
+                                 fill="none">
+                                <path d="M23.7131 24.8236L18.017 19.029C19.8744 17.0765 21.0508 14.4312 21.0508 11.4709C21.0508 5.55037 16.3453 0.76355 10.5254 0.76355C4.70548 0.76355 0 5.55037 0 11.4709C0 17.3915 4.70548 22.1783 10.5254 22.1783C12.7543 22.1783 14.8594 21.4225 16.593 20.2257L22.4129 26.1463C22.5987 26.3352 22.8463 26.3982 23.094 26.3982C23.3416 26.3982 23.5893 26.3352 23.775 26.1463C24.0846 25.7684 24.0846 25.2015 23.7131 24.8236ZM1.85742 11.4709C1.85742 6.62111 5.75802 2.65308 10.5254 2.65308C15.2928 2.65308 19.1934 6.62111 19.1934 11.4709C19.1934 16.3207 15.2928 20.2887 10.5254 20.2887C5.75802 20.2887 1.85742 16.3207 1.85742 11.4709Z"
+                                      fill="#313133"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="header__basket">
+                        <button type="button" name="button">
+                            <svg width="33" height="28" viewBox="0 0 33 28" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.70156 8.98752C1.70821 8.85446 1.81803 8.75 1.95125 8.75H21.0487C21.182 8.75 21.2918 8.85446 21.2984 8.98751L22.1984 26.9875C22.2056 27.1303 22.0917 27.25 21.9488 27.25H1.05125C0.908275 27.25 0.794421 27.1303 0.801561 26.9875L1.70156 8.98752Z"
+                                      stroke="#313133" stroke-width="1.5"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M16.4664 12C16.4894 11.5233 16.5 11.023 16.5 10.5C16.5 7.91305 16.2196 5.8705 15.4677 4.50676C15.1108 3.85955 14.6568 3.38328 14.071 3.05707C13.4773 2.72643 12.6577 2.5 11.5 2.5C10.3423 2.5 9.52274 2.72643 8.92899 3.05707C8.34317 3.38328 7.88917 3.85955 7.53231 4.50676C6.78036 5.8705 6.5 7.91305 6.5 10.5C6.5 11.0225 6.50018 11.522 6.50614 12H5.00598C5 11.5114 5 11.0104 5 10.5C5 5.25329 6.08333 1 11.5 1C16.9167 1 18 5.25329 18 10.5C18 11.0104 17.9905 11.5114 17.9684 12H16.4664Z"
+                                      fill="#313133"/>
+
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Контент шапки -->
+        <div class="header__container">
+            <div class="header__content">
+                <div class="header__content-title">
+                    дизайнерская мебель
+                </div>
+                <div class="header__content-about">
+                    <div class="header__content-info">
+                        Кресло “Антиква”
+                    </div>
+                    <div class="header__content-price">
+                        $240
+                    </div>
+                </div>
+                <div class="header__content-action">
+                    <button type="button" name="button" class="button header-button">
+                        купить
+                    </button>
+                </div>
+            </div>
+            <div class="swiper header-swiper">
+                <div class="swiper-wrapper header-wrapper">
+                    <div class="swiper-slide header-slide">
+                        <div class="header__product-image">
+                            <img src="./images/с1.png" alt="product-image">
+                        </div>
+                    </div>
+                    <div class="swiper-slide header-slide">
+                        <div class="header__product-image">
+                            <img src="./images/с2.png" alt="product-image">
+                        </div>
+                    </div>
+                    <div class="swiper-slide header-slide">
+                        <div class="header__product-image">
+                            <img src="./images/с3.png" alt="product-image">
+                        </div>
+                    </div>
+                    <div class="swiper-slide header-slide">
+                        <div class="header__product-image">
+                            <img src="./images/с4.png" alt="product-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination header__content-pagination">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Основной контент -->
+<section class="main">
+    <div class="container">
+        <div class="news" id="news">
+            <div class="common-title news-title">
+                НОВИНКИ
+            </div>
+            <div class="news-items">
+                <div class="news-item small lamp">
+                    <div class="lamp-image">
+                        <img src="./images/lamp.svg" alt="lamp">
+                    </div>
+                    <div class="news-item__title">
+                        Люстра «Облако»
+                    </div>
+                    <div class="news-item__price">
+                        $250
+                    </div>
+                </div>
+                <div class="news-item__container">
+                    <div class="news-item small table">
+                        <div class="table-image">
+                            <img src="./images/table.svg" alt="table">
+                        </div>
+                        <div class="news-item__title">
+                            Стол «Крем брюле»
+                        </div>
+                        <div class="news-item__price">
+                            $320
+                        </div>
+                    </div>
+                    <div class="news-item small chair1">
+                        <div class="chair1-image">
+                            <img src="./images/ch1.svg" alt="chair_small">
+                        </div>
+                        <div class="news-item__title">
+                            Стул «Смеркается»
+                        </div>
+                        <div class="news-item__price">
+                            $280
+                        </div>
+                    </div>
+                </div>
+                <div class="news-item big chair2">
+                    <div class="chair2-image">
+                        <img src="./images/ch2.svg" alt="chair_big">
+                    </div>
+                    <div class="news-item__title">
+                        Стул офисный «Белый шоколад»
+                    </div>
+                    <div class="news-item__price">
+                        $120
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Комментарии -->
+<section class="comments">
+    <div class="container">
+        <div class="swiper comment-swiper">
+            <div class="swiper-wrapper comments-wrapper">
+                <div class="swiper-slide comment-slide">
+                    <div class="comment-item__image">
+                        <img src="./images/client.png" alt="1">
+                    </div>
+                    <div class="comment-item__title">
+                        <div class="comment-item__name">
+                            Елена Новикова
+                        </div>
+                        <div class="comment-item__rank">
+                            студентка
+                        </div>
+                    </div>
+                    <div class="comment-item__text">
+                        «Хочу поделиться своими впечатлениями по использованию дивана «Бродвей»,
+                        заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного
+                        магазина.»
+                    </div>
+                </div>
+                <div class="swiper-slide comment-slide">
+                    <div class="comment-item__image">
+                        <img src="./images/client2.jpeg" alt="2">
+                    </div>
+                    <div class="comment-item__title">
+                        <div class="comment-item__name">
+                            Дарья Синицина
+                        </div>
+                        <div class="comment-item__rank">
+                            студентка
+                        </div>
+                    </div>
+                    <div class="comment-item__text">
+                        «Хочу поделиться опытом использования данной мебели. Недавно приобрела кресло "Антиква". Очень
+                        удобно и комфортно сидеть, материал хороший и дышащий.»
+                    </div>
+                </div>
+                <div class="swiper-slide comment-slide">
+                    <div class="comment-item__image">
+                        <img src="./images/client3.jpg" alt="3">
+                    </div>
+                    <div class="comment-item__title">
+                        <div class="comment-item__name">
+                            Олег Канбулатов
+                        </div>
+                        <div class="comment-item__rank">
+                            студент
+                        </div>
+                    </div>
+                    <div class="comment-item__text">
+                        «Продукция фирмы хорошая. В прошлом году брал здесь диван в гостиную, удобно стирать и места
+                        много.»
+                    </div>
+                </div>
+                <div class="swiper-slide comment-slide">
+                    <div class="comment-item__image">
+                        <img src="./images/client4.jpg" alt="4">
+                    </div>
+                    <div class="comment-item__title">
+                        <div class="comment-item__name">
+                            Эдуард Половский
+                        </div>
+                        <div class="comment-item__rank">
+                            студент
+                        </div>
+                    </div>
+                    <div class="comment-item__text">
+                        «Заказывал мебель в свой офис для сотрудников. Сказали, что мебель шикарная и стоит своих денег.
+                        В итоге заказал ее себе домой и был приятно удивлён. Большое спасибо за качество!»
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination comments-pag"></div>
+
+            <div class="swiper-button-prev prev"></div>
+            <div class="swiper-button-next next"></div>
+
+        </div>
+    </div>
+</section>
+<!-- Все продукты -->
+<section class="products" id="products">
+    <div class="container">
+        <div class="products__rentangle"></div>
+        <div class="inner-products">
+            <div class="common-title product-title">
+                ПОСЛЕДНИЙ ШАНС
+            </div>
+            <div class="swiper product-swiper">
+                <div class="product-pagination product__menu-list">
+
+                </div>
+
+                <div class="swiper-wrapper product-wrapper">
+                    <div class="swiper-slide product-slide" id="one">
+                        <div class="product-items">
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Стул «Карамель»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $195
+                                        </div>
+                                        <div class="price-old">
+                                            $245
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr1.png" alt="pr1">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Стул «Облако»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $200
+                                        </div>
+                                        <div class="price-old">
+                                            $250
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr2.png" alt="pr2">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Стул «Сова»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $240
+                                        </div>
+                                        <div class="price-old">
+                                            $260
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr3.png" alt="pr3">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Стул «Мая»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $280
+                                        </div>
+                                        <div class="price-old">
+                                            $330
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr4.png" alt="pr4">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Стул «Месси»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $280
+                                        </div>
+                                        <div class="price-old">
+                                            $305
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr5.png" alt="pr5">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-slide" id="two">
+                        <div class="product-items">
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Диван «Шоколадный»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $265
+                                        </div>
+                                        <div class="price-old">
+                                            $315
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr1.png" alt="pr1">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Диван «Облако»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $200
+                                        </div>
+                                        <div class="price-old">
+                                            $250
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr2.png" alt="pr2">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Диван «Сова»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $240
+                                        </div>
+                                        <div class="price-old">
+                                            $260
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr3.png" alt="pr3">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Диван «Мая»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $280
+                                        </div>
+                                        <div class="price-old">
+                                            $330
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr4.png" alt="pr4">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Диван «Месси»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $280
+                                        </div>
+                                        <div class="price-old">
+                                            $305
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr5.png" alt="pr5">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-slide" id="three">
+                        <div class="product-items">
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Кресло «Карамель»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $195
+                                        </div>
+                                        <div class="price-old">
+                                            $245
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr1.png" alt="pr1">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Кресло «Облако»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $200
+                                        </div>
+                                        <div class="price-old">
+                                            $250
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr2.png" alt="pr2">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Кресло «Сова»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $240
+                                        </div>
+                                        <div class="price-old">
+                                            $260
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr3.png" alt="pr3">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Кресло «Мая»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $280
+                                        </div>
+                                        <div class="price-old">
+                                            $330
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr4.png" alt="pr4">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-item__info">
+                                    <div class="product-item__title">
+                                        Кресло «Месси»
+                                    </div>
+                                    <div class="product-item__price">
+                                        <div class="price-low">
+                                            $280
+                                        </div>
+                                        <div class="price-old">
+                                            $305
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item__image">
+                                    <img src="./images/pr5.png" alt="pr5">
+                                </div>
+                                <div class="buy-link">
+                                    <button class="button product-button">Купить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Подвал -->
+<footer class="footer">
+    <div class="container">
+        <div class="inner-footer">
+            <div class="footer__content">
+                <div class="footer__content-contacts">
+                    <div class="logo">
+                        <img src="./images/logo.svg">
+                    </div>
+                    <div class="contacts">
+                        <div class="number">
+                            <div class="number__logo">
+                                <img src="./images/number.svg">
+                            </div>
+                            <div class="number__info">+7(495) 205-28-14</div>
+                        </div>
+                        <div class="email">
+                            <div class="email__logo">
+                                <img src="./images/email.svg">
+                            </div>
+                            <div class="email__info">callium@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__content-menu">
+                    <ul>
+                        <li class="content-menu__item"><a href="#">ДОСТАВКА</a></li>
+                        <li class="content-menu__item"><a href="#">ОПЛАТА</a></li>
+                        <li class="content-menu__item"><a href="#">КОНТАКТЫ</a></li>
+                        <li class="content-menu__item"><a href="#">ГАРАНТИИ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rights">
+                <div class="rights-text">
+                    © 2018 «Callium» — Сайт по продаже дизайнерской мебели. Все права защищены.
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+<script>
+    ScrollReveal().reveal('.header')
+    ScrollReveal().reveal('.main', {delay: 100})
+    ScrollReveal().reveal('.comments', {delay: 100})
+    ScrollReveal().reveal('.products', {delay: 100})
+</script>
+<script type="text/javascript" src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+
+    const swiperOne = new Swiper('.comment-swiper', {
+        cssMode: true,
+        loop: "Infinite",
+
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        mousewheel: true,
+        keyboard: true,
+
+    });
+
+    let labels = ['Стулья', 'Диваны', 'Кресла'];
+
+    const swiperTwo = new Swiper('.product-swiper', {
+        pagination: {
+            el: ".product-pagination",
+            clickable: true,
+            renderBullet: function (index, className) {
+                return '<span class="' + className + '">' + (labels[index]) + "</span>";
+            },
+        },
+    });
+
+    const swiperThree = new Swiper('.header-swiper', {
+        direction: "vertical",
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: true,
+        },
+        pagination: {
+            el: ".header__content-pagination",
+            clickable: true,
+            renderBullet: function (index, className) {
+                return '<span class="' + className + '">' + '0' + (index + 1) + "</span>";
+            },
+        },
+    });
+
+</script>
+</html>
